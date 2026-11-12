@@ -3,7 +3,10 @@ import assert from 'node:assert/strict';
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { DEFAULT_PROJECT, cloneProject, validateProject, readSavedProject } from '../dist/js/model.js';
+import {
+  DEFAULT_PROJECT, TEXT_SURFACES, cloneProject, validateProject,
+  readSavedProject, writeSavedProject, listVariants, saveVariant, deleteVariant,
+} from '../dist/js/model.js';
 import { FONT_CATALOG, EXTRA_BASE_FONTS, getBundledFont, resolveFontWeight } from '../dist/js/fonts.js';
 import { signedDistanceField } from '../dist/js/morph.js';
 
@@ -51,6 +54,157 @@ test('un documento parcial válido recibe valores iniciales y descarta campos aj
   assert.equal(result.texts.brand.value, 'WERTBAU');
   assert.equal(Object.hasOwn(result, 'arbitraryHtml'), false);
   assert.notStrictEqual(result.texts.brand, DEFAULT_PROJECT.texts.brand);
+});
+
+test('los proyectos anteriores migran sus cuadros sin alterar el contenido original', () => {
+  const legacy = cloneProject();
+  delete legacy.placements;
+  delete legacy.customTexts;
+  legacy.texts.brand.value = 'Marca anterior';
+  legacy.texts.claim.scale = 1.3;
+  const migrated = validateProject(JSON.parse(JSON.stringify(legacy)));
+  assert.equal(migrated.version, 1);
+  assert.deepEqual(migrated.placements, {});
+  assert.deepEqual(migrated.customTexts, []);
+  const { placements, customTexts, ...preserved } = migrated;
+  assert.deepEqual(preserved, legacy);
+  assert.deepEqual(validateProject(JSON.parse(JSON.stringify(migrated))), migrated);
+  migrated.placements['cards-front:brand'] = { x: 42, y: -18 };
+  migrated.customTexts.push({ id: 'custom-example', surface: 'cards-front' });
+  assert.deepEqual(DEFAULT_PROJECT.placements, {});
+  assert.deepEqual(DEFAULT_PROJECT.customTexts, []);
+});
+
+test('cada cuadro nuevo conserva formato y su posición pertenece solo a su superficie', () => {
+  const project = cloneProject();
+  project.customTexts = [
+    { id: 'custom-contact', surface: 'cards-back' },
+    {
+      id: 'custom-caption', surface: 'sign-panel', value: 'Obra nueva\nDiseño y construcción',
+      role: 'tertiary', color: 'secondary', scale: 1.8, align: 'right', width: 320,
+      x: 999, y: 999, arbitraryHtml: '<script>run()</script>',
+    },
+  ];
+  project.placements = {
+    'cards-front:brand': { x: 12.5, y: -40 },
+    'cards-back:brand': { x: -80, y: 0 },
+    'cards-back:custom-contact': { x: 200, y: 80 },
+    'sign-panel:custom-caption': { x: -25, y: 220 },
+  };
+  const restored = validateProject(JSON.parse(JSON.stringify(project)));
+  assert.deepEqual(restored.customTexts[0], {
+    id: 'custom-contact', surface: 'cards-back', value: 'Nuevo texto',
+    role: 'secondary', color: 'primary', scale: 1, align: 'left', width: 240,
+  });
+  assert.deepEqual(restored.placements, project.placements);
+  assert.equal(restored.customTexts[1].value, 'Obra nueva\nDiseño y construcción');
+  assert.equal(restored.customTexts[1].scale, 1.8);
+  assert.equal(restored.customTexts[1].width, 320);
+  assert.equal(Object.hasOwn(restored.customTexts[1], 'x'), false);
+  assert.equal(Object.hasOwn(restored.customTexts[1], 'y'), false);
+  assert.equal(Object.hasOwn(restored.customTexts[1], 'arbitraryHtml'), false);
+  assert.deepEqual(validateProject(restored), restored);
+  const misplaced = cloneProject(restored);
+  misplaced.placements['cards-front:custom-contact'] = { x: 0, y: 0 };
+  assert.throws(() => validateProject(misplaced), isValidationError);
+});
+
+test('los límites de cuadros y desplazamientos admiten extremos finitos y rechazan valores fuera de rango', () => {
+  const project = cloneProject();
+  project.customTexts = Array.from({ length: 100 }, (_, i) => ({
+    id: `custom-${i}`, surface: TEXT_SURFACES[i % TEXT_SURFACES.length],
+    width: i % 2 ? 24 : 1000, scale: i % 2 ? 0.4 : 2,
+  }));
+  project.placements = Object.fromEntries(TEXT_SURFACES.map((surface, i) => [
+    `${surface}:brand`, { x: i % 2 ? -1000 : 1000, y: i % 2 ? -700 : 700 },
+  ]));
+  assert.equal(validateProject(project).customTexts.length, 100);
+  project.customTexts.push({ id: 'custom-overflow', surface: 'type' });
+  assert.throws(() => validateProject(project), isValidationError);
+  project.customTexts.pop();
+  for (const [attribute, value] of [
+    ['width', 23], ['width', 1001], ['width', '240'], ['width', NaN],
+    ['scale', 0.39], ['scale', 2.01], ['role', 'fourth'], ['color', '#ffffff'],
+    ['align', 'justify'], ['value', 'a'.repeat(5001)],
+  ]) {
+    const bad = cloneProject(project);
+    bad.customTexts[0][attribute] = value;
+    assert.throws(() => validateProject(bad), isValidationError, `${attribute}: ${String(value).slice(0, 25)}`);
+  }
+  for (const position of [
+    { x: -1000.01, y: 0 }, { x: 1000.01, y: 0 }, { x: 0, y: -700.01 },
+    { x: 0, y: 700.01 }, { x: Infinity, y: 0 }, { x: 0, y: NaN },
+    { x: '25', y: 0 }, { x: 25 }, { y: 25 }, null, [],
+  ]) {
+    const bad = cloneProject(project);
+    bad.placements['type:brand'] = position;
+    assert.throws(() => validateProject(bad), isValidationError);
+  }
+});
+
+test('los identificadores y superficies inválidos no crean cuadros ni propiedades peligrosas', () => {
+  for (const entry of [
+    { id: 'custom-', surface: 'type' }, { id: 'brand', surface: 'type' },
+    { id: 'custom-a:b', surface: 'type' }, { id: 'custom-' + 'a'.repeat(81), surface: 'type' },
+    { id: 'custom-one', surface: '__proto__' }, { id: 'custom-one', surface: 'not-a-surface' },
+    { id: 'custom-one' }, { surface: 'type' }, null,
+    JSON.parse('{"id":"custom-proto","surface":"type","__proto__":{"polluted":true}}'),
+  ]) {
+    assert.throws(() => validateProject({ version: 1, customTexts: [entry] }), isValidationError);
+  }
+  assert.throws(() => validateProject({ version: 1, customTexts: [
+    { id: 'custom-duplicate', surface: 'type' }, { id: 'custom-duplicate', surface: 'cards' },
+  ] }), isValidationError);
+  assert.throws(() => validateProject({ version: 1, customTexts: new Array(1) }), isValidationError);
+  for (const key of ['brand', 'type:brand:extra', 'unknown:brand', 'type:unknown', 'cards:custom-missing', 'type:__proto__', 'constructor:brand']) {
+    assert.throws(() => validateProject({ version: 1, placements: { [key]: { x: 0, y: 0 } } }), isValidationError, key);
+  }
+  for (const placements of [
+    JSON.parse('{"__proto__":{"polluted":true}}'),
+    { 'type:brand': JSON.parse('{"x":0,"y":0,"constructor":{"prototype":{"polluted":true}}}') },
+    [], null,
+  ]) assert.throws(() => validateProject({ version: 1, placements }), isValidationError);
+  assert.equal({}.polluted, undefined);
+});
+
+test('guardar y reabrir proyectos y variantes mantiene los cuadros nuevos y los desplazamientos', async () => {
+  const previousStorage = Object.getOwnPropertyDescriptor(globalThis, 'localStorage');
+  const stored = new Map();
+  Object.defineProperty(globalThis, 'localStorage', {
+    configurable: true,
+    value: { getItem: key => stored.get(key) ?? null, setItem: (key, value) => stored.set(key, value) },
+  });
+  try {
+    const legacy = cloneProject();
+    delete legacy.customTexts;
+    delete legacy.placements;
+    stored.set('vision-wertbau:project:v1', JSON.stringify(legacy));
+    assert.deepEqual((await readSavedProject()).placements, {});
+    const project = cloneProject();
+    project.customTexts = [{ id: 'custom-note', surface: 'stationery-paper', value: 'Ñandú — proyecto 2026', width: 410 }];
+    project.placements = {
+      'stationery-paper:custom-note': { x: 24.75, y: 230 },
+      'cards-front:brand': { x: -35, y: 8 },
+    };
+    const expected = validateProject(project);
+    await writeSavedProject(project);
+    assert.deepEqual(await readSavedProject(), expected);
+    const variant = await saveVariant(project, 'Composición movida');
+    project.customTexts[0].value = 'Cambio posterior';
+    project.placements['cards-front:brand'].x = 400;
+    assert.deepEqual(variant.project, expected);
+    const variants = await listVariants();
+    assert.equal(variants.length, 1);
+    assert.deepEqual(variants[0].project, expected);
+    assert.deepEqual(validateProject(JSON.parse(JSON.stringify(variants[0].project))), expected);
+    await writeSavedProject(variants[0].project);
+    assert.deepEqual(await readSavedProject(), expected);
+    await deleteVariant(variant.id);
+    assert.deepEqual(await listVariants(), []);
+  } finally {
+    if (previousStorage) Object.defineProperty(globalThis, 'localStorage', previousStorage);
+    else delete globalThis.localStorage;
+  }
 });
 
 test('rechaza estructura, tipos y valores que no pueden representarse en el editor', () => {

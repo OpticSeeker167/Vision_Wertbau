@@ -4,6 +4,11 @@
  */
 
 const ROLES = ['primary', 'secondary', 'tertiary'];
+export const TEXT_SURFACES = Object.freeze([
+  'type', 'cards', 'cards-front', 'cards-back',
+  'stationery', 'stationery-paper', 'stationery-envelope', 'stationery-ticket',
+  'sign', 'sign-panel', 'sign-footer', 'facade', 'facade-panel',
+]);
 const IMAGE_KEYS = ['cards', 'stationery', 'sign', 'facade', 'logo'];
 const MAX_PROJECT_BYTES = 45 * 1024 * 1024;
 const MAX_ASSET_CHARS = 16 * 1024 * 1024;
@@ -61,6 +66,8 @@ export const DEFAULT_PROJECT = {
     secondaryLabel: text('02 / SECUNDARIA', 'tertiary', 'tertiary'),
     tertiaryLabel: text('03 / TERCIARIA', 'tertiary', 'tertiary'),
   },
+  placements: {},
+  customTexts: [],
   images: {
     cards: image('', 'Fondo de tarjetas'),
     stationery: image('', 'Fondo de papelería'),
@@ -133,6 +140,16 @@ function boolean(value, fallback, path) {
   if (value === undefined) return fallback;
   if (typeof value !== 'boolean') throw invalid(`${path}: se esperaba sí o no.`);
   return value;
+}
+
+function textAttributes(entry, fallback, path) {
+  return {
+    value: string(entry.value, fallback.value, path, 5000, true),
+    role: choice(entry.role, fallback.role, `Tipografía de ${path}`, ROLES),
+    color: choice(entry.color, fallback.color, `Color de ${path}`, ROLES),
+    scale: number(entry.scale, fallback.scale, `Tamaño de ${path}`, 0.4, 2),
+    align: choice(entry.align, fallback.align, `Alineación de ${path}`, ['left', 'center', 'right']),
+  };
 }
 
 function byteLength(value) {
@@ -221,12 +238,48 @@ export function validateProject(raw) {
   for (const key of Object.keys(defaults.texts)) {
     const fallback = defaults.texts[key];
     const entry = child(texts, key, fallback, `Texto ${key}`);
-    result.texts[key] = {
-      value: string(entry.value, fallback.value, `Texto ${key}`, 5000, true),
-      role: choice(entry.role, fallback.role, `Tipografía de ${key}`, ROLES),
-      color: choice(entry.color, fallback.color, `Color de ${key}`, ROLES),
-      scale: number(entry.scale, fallback.scale, `Tamaño de ${key}`, 0.4, 2),
-      align: choice(entry.align, fallback.align, `Alineación de ${key}`, ['left', 'center', 'right']),
+    result.texts[key] = textAttributes(entry, fallback, `Texto ${key}`);
+  }
+  // Version 1 files created before movable text existed migrate without losing
+  // their original content. Every position belongs to one rendered instance.
+  const customTexts = input.customTexts === undefined ? [] : input.customTexts;
+  if (!Array.isArray(customTexts) || customTexts.length > 100) {
+    throw invalid('Podés guardar hasta 100 cuadros de texto nuevos por proyecto.');
+  }
+  const customSurfaces = new Map();
+  const customDefault = text('Nuevo texto');
+  result.customTexts = Array.from(customTexts, (rawText, index) => {
+    const entry = record(rawText, `Cuadro de texto ${index + 1}`);
+    if (typeof entry.id !== 'string' || !/^custom-[A-Za-z0-9_-]{1,80}$/.test(entry.id) || customSurfaces.has(entry.id)) {
+      throw invalid('Cada cuadro nuevo necesita un identificador único con el formato custom-nombre.');
+    }
+    if (!TEXT_SURFACES.includes(entry.surface)) {
+      throw invalid(`Cuadro ${entry.id}: la superficie no es válida.`);
+    }
+    customSurfaces.set(entry.id, entry.surface);
+    return {
+      id: entry.id,
+      surface: entry.surface,
+      ...textAttributes(entry, customDefault, `Cuadro ${entry.id}`),
+      width: number(entry.width, 240, `Ancho de ${entry.id}`, 24, 1000),
+    };
+  });
+  const placements = child(input, 'placements', {}, 'Posiciones de texto');
+  result.placements = {};
+  for (const [instanceId, rawPlacement] of Object.entries(placements)) {
+    const parts = instanceId.split(':');
+    const [surface, key] = parts;
+    if (parts.length !== 2 || !TEXT_SURFACES.includes(surface)
+      || (!Object.hasOwn(defaults.texts, key) && customSurfaces.get(key) !== surface)) {
+      throw invalid(`Posición ${instanceId}: el cuadro o su superficie no es válido.`);
+    }
+    const placement = record(rawPlacement, `Posición ${instanceId}`);
+    if (placement.x === undefined || placement.y === undefined) {
+      throw invalid(`Posición ${instanceId}: se requieren ambas coordenadas x e y.`);
+    }
+    result.placements[instanceId] = {
+      x: number(placement.x, 0, `Posición horizontal de ${instanceId}`, -1000, 1000),
+      y: number(placement.y, 0, `Posición vertical de ${instanceId}`, -700, 700),
     };
   }
   const images = child(input, 'images', defaults.images, 'Imágenes');

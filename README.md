@@ -67,13 +67,28 @@ Las fuentes están incluidas en `dist/assets/fonts/` y se cargan cuando se neces
 
 La tipografía principal inicial de esta web es **Space Grotesk**. **Test Söhne Breit / Kräftig**, que aparece en el PDF, no está incorporada: falta importar su archivo propio desde la entrega original. La aplicación permite cargar archivos `.woff2`, `.woff`, `.ttf` y `.otf`, hasta **64 fuentes propias por proyecto**. El límite por archivo es de **8 MB**.
 
-La transición de la marca principal interpola la forma de las letras mediante campos de distancia de sus siluetas. Podés desactivar la animación; también se respeta la preferencia de movimiento reducido del navegador.
+La transición tipográfica interpola la forma de las letras mediante campos de distancia de sus siluetas. Podés desactivar la animación; también se respeta la preferencia de movimiento reducido del navegador.
 
-### Textos
+### Textos y posiciones
 
-Hacé clic en un texto para abrir sus controles, o doble clic para escribir sobre la lámina. Podés cambiar el contenido, la jerarquía tipográfica, el color asociado, la escala y la alineación.
+Hacé clic en un texto para seleccionarlo y abrir sus controles en **Contenido**. Podés cambiar el contenido, la jerarquía tipográfica, el color asociado, la escala y la alineación. Hacé doble clic para escribir directamente sobre la lámina.
 
-**Los datos de marca son compartidos entre aplicaciones.** Por ejemplo, editar el nombre, el correo, el teléfono o el eslogan actualiza todas sus apariciones. Los títulos, especímenes y textos particulares tienen sus propios campos. El control de caja permite comparar la marca en mayúsculas, minúsculas o conservar lo escrito.
+**Los datos de marca son compartidos; la posición de cada aparición es independiente.** Editar el nombre, el correo, el teléfono o el eslogan actualiza sus apariciones en las aplicaciones. En cambio, arrastrar el correo del dorso de la tarjeta mueve únicamente esa aparición: el correo de la papelería conserva su posición.
+
+Arrastrá el cuadro sobre la lámina para ubicarlo. También podés introducir las coordenadas horizontal y vertical en **Contenido** o usar **Restablecer posición**. Con el cuadro enfocado en la lámina, las flechas lo desplazan **1 px**; `Shift` + flechas lo desplaza **10 px**. Los movimientos respetan la superficie a la que pertenece el texto y se pueden deshacer.
+
+Los títulos, especímenes y textos particulares tienen sus propios campos. El control de caja permite comparar la marca en mayúsculas, minúsculas o conservar lo escrito.
+
+### Agregar cuadros de texto
+
+Podés añadir hasta **100 cuadros nuevos por proyecto**. Cada cuadro tiene su propio contenido y permanece asociado a la superficie elegida.
+
+1. Abrí la lámina en la que querés trabajar.
+2. En **Contenido**, elegí la superficie en **Agregar texto en**: por ejemplo, frente o dorso de tarjeta, hoja membretada, sobre, cartel de obra, franja de contacto o rótulo de fachada. También podés elegir el fondo de la lámina cuando está disponible.
+3. Pulsá **Agregar cuadro de texto**. El botón **Agregar texto** de la barra superior usa la superficie seleccionada.
+4. Escribí el contenido y ajustá su **ancho, posición, tipografía, color, tamaño y alineación**. Podés arrastrarlo o precisar su ubicación con los campos numéricos.
+
+**Eliminar cuadro** quita el cuadro nuevo seleccionado. También podés usar `Supr` o `Retroceso` cuando el cuadro tiene el foco en la lámina. La eliminación, la incorporación y los desplazamientos se pueden deshacer y rehacer. Los textos originales de la plantilla conservan su acción **Restablecer texto**.
 
 ### Imágenes
 
@@ -91,23 +106,47 @@ Las fotografías del PDF eran imágenes aplanadas. En esta web, las superficies 
 | 04 | Cartel de obra |
 | 05 | Fachada |
 
-Usá las miniaturas o las flechas izquierda/derecha para cambiar de lámina. El modo presentación permite revisar las composiciones con más espacio.
+Usá las miniaturas para cambiar de lámina. Las flechas izquierda/derecha también cambian de lámina cuando no estás editando un campo ni tenés el foco sobre un cuadro de texto. El modo presentación permite revisar las composiciones con más espacio.
+
+### Vistas de tarjetas
+
+En la lámina **02 / Tarjetas**, la barra contextual ofrece tres vistas:
+
+| Vista | Uso |
+| --- | --- |
+| **Ambas** | Revisar el frente y el dorso dentro de la composición completa. |
+| **Frente** | Editar el frente centrado, ampliado y sin inclinación. |
+| **Dorso** | Editar el dorso centrado, ampliado y sin inclinación. |
+
+Los textos conservan sus posiciones al alternar entre vistas. La presentación mantiene la vista seleccionada; las miniaturas y la exportación de las cinco láminas a PDF muestran siempre **Ambas**.
 
 ## Guardado y variantes
 
-El proyecto activo se guarda en el navegador mediante **IndexedDB**. Las variantes conservan copias independientes de la exploración para volver a abrirlas. Cuando IndexedDB no está disponible, existe un respaldo reducido con `localStorage`.
+El proyecto activo se guarda en el navegador mediante **IndexedDB**, incluidos los cuadros añadidos y la posición independiente de cada aparición de texto. Las variantes conservan copias independientes de la exploración y de su composición para volver a abrirlas. Cuando IndexedDB no está disponible, existe un respaldo reducido con `localStorage`.
 
 **El guardado es local a ese navegador y a esa dirección web.** No sincroniza las variantes entre equipos, no guarda en el disco F: y no realiza commits en GitHub. Cambiar de navegador, perfil, dominio o puerto puede mostrar un espacio de trabajo diferente. Exportá un proyecto JSON para trasladar o respaldar tu trabajo.
 
 En **Exportar** están disponibles:
 
-- **Proyecto editable (JSON):** textos, paleta, ajustes, imágenes y fuentes propias incorporadas. Se puede importar en otra instalación de Vision Wertbau.
+- **Proyecto editable (JSON):** textos, cuadros añadidos, superficies, anchos, posiciones, paleta, ajustes, imágenes y fuentes propias incorporadas. Se puede importar en otra instalación de Vision Wertbau.
 - **Estilos de marca (CSS):** variables con los tres colores y las tres jerarquías. Las familias tipográficas deben cargarse en el sitio que utilice esas variables.
-- **Cinco láminas en PDF:** abre la impresión del navegador. Elegí guardar como PDF, orientación horizontal, sin márgenes y con gráficos de fondo.
+- **Cinco láminas en PDF:** conserva la composición, los cuadros añadidos y sus posiciones. Abre la impresión del navegador en A4 horizontal; elegí guardar como PDF, sin márgenes y con gráficos de fondo. La lámina de tarjetas incluye frente y dorso.
 
 El JSON tiene un límite de **45 MB**. Los 203 archivos tipográficos que ya vienen con la aplicación no se repiten dentro de cada exportación. El respaldo de `localStorage`, cuando se utiliza, admite proyectos de hasta 3 MB.
 
-Atajos: `Ctrl+S` exporta el proyecto; `Ctrl+Z` y `Ctrl+Shift+Z` permiten deshacer y rehacer cuando no estás escribiendo dentro de un campo; `Escape` sale del modo presentación.
+Los archivos JSON y las variantes de **versión 1** anteriores a los controles de posición siguen siendo compatibles. Si no incluyen cuadros nuevos ni posiciones, se abren con la composición original; no es necesario convertirlos antes de importarlos.
+
+### Atajos
+
+| Atajo | Acción |
+| --- | --- |
+| Flechas, con un cuadro enfocado | Mover el texto 1 px. |
+| `Shift` + flechas, con un cuadro enfocado | Mover el texto 10 px. |
+| `Supr` o `Retroceso`, con un cuadro nuevo enfocado | Eliminar ese cuadro. |
+| Flechas izquierda/derecha, fuera de campos y cuadros | Cambiar de lámina. |
+| `Ctrl+S` | Exportar el proyecto JSON. |
+| `Ctrl+Z` / `Ctrl+Shift+Z` | Deshacer / rehacer cuando no estás escribiendo dentro de un campo. |
+| `Escape` | Salir del modo presentación. |
 
 ## Estructura para desarrollo
 
@@ -116,13 +155,14 @@ Atajos: `Ctrl+S` exporta el proyecto; `Ctrl+Z` y `Ctrl+Shift+Z` permiten deshace
 | `dist/index.html` | Entrada de la aplicación |
 | `dist/styles.css` | Interfaz, láminas, adaptación e impresión |
 | `dist/js/app.js` | Controles, selección, renderizado y exportación |
-| `dist/js/model.js` | Esquema validado, guardado y variantes |
+| `dist/js/model.js` | Esquema validado, cuadros, posiciones, guardado y variantes |
+| `dist/js/layout.js` | Conversión del movimiento del puntero y límites de posición |
 | `dist/js/fonts.js` | Catálogo y carga de fuentes |
 | `dist/js/morph.js` | Transición de siluetas tipográficas |
 | `dist/assets/` | Imágenes y recursos de la referencia |
 | `dist/assets/fonts/` | Fuentes WOFF2, licencias y manifiesto de procedencia |
 | `scripts/serve.mjs` | Servidor local sin dependencias |
-| `tests/project.test.mjs` | Validación de importaciones, aislamiento e integridad de fuentes |
+| `tests/` | Pruebas de esquema, posiciones, límites, fuentes y animación |
 
 No hay paso de compilación. Los archivos que se editan dentro de `dist/` son los mismos que se publican. Para comprobar el proyecto:
 
@@ -131,7 +171,7 @@ npm run check
 npm test
 ```
 
-Las pruebas cubren importaciones inválidas y contenidos activos en imágenes, aislamiento entre copias, manejo de una copia local dañada, correspondencia del catálogo con los 203 archivos reales y propiedades del cálculo de distancia para la animación. La revisión visual y la impresión se comprueban además en navegador.
+La suite actual contiene **24 pruebas**. Cubre importaciones inválidas y contenidos activos en imágenes, aislamiento entre copias, manejo de una copia local dañada, compatibilidad con proyectos de versión 1 anteriores, cuadros y posiciones, conversión del arrastre y sus límites, correspondencia del catálogo con los 203 archivos reales y propiedades del cálculo de distancia para la animación. La revisión visual y la impresión se comprueban además en navegador.
 
 ## Repositorio y publicación
 
