@@ -42,4 +42,4 @@ Las superficies editables de las aplicaciones se reconstruyeron con HTML y CSS. 
 
 La interfaz, el modelo de proyecto, el servidor local y el motor de transición se implementaron para este proyecto, sin bibliotecas JavaScript de ejecución externas. Las API del navegador se utilizan para texto, canvas, carga tipográfica, impresión y almacenamiento local.
 
-No se ha asignado una licencia de código abierto al conjunto del proyecto. La configuración del repositorio es privada.
+No se ha asignado una licencia de código abierto al conjunto del proyecto. El repositorio es público; su visibilidad no cambia las licencias de los recursos incluidos.

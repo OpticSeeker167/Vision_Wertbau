@@ -1,4 +1,4 @@
-# Publica exclusivamente en OpticSeeker167/Vision_Wertbau.
+# Publica exclusivamente en el repositorio publico OpticSeeker167/Vision_Wertbau.
 # No instala herramientas, no escribe tokens y no fuerza el historial.
 [CmdletBinding()]
 param()
@@ -101,8 +101,8 @@ try {
     $exists = $metadataExit -eq 0
     if ($exists) {
         $repository = ($metadata -join "`n") | ConvertFrom-Json
-        if ($repository.full_name -cne $targetRepository -or -not $repository.private) {
-            throw 'El repositorio existente no coincide con el destino privado esperado. Su configuracion se conserva.'
+        if ($repository.full_name -cne $targetRepository -or ($repository.private -ne $false)) {
+            throw 'El repositorio existente no coincide con el destino publico esperado. Su configuracion se conserva.'
         }
         if ($repository.default_branch -and $repository.default_branch -cne 'main') {
             throw 'El repositorio existente usa otra rama principal. No se modifico su estructura.'
@@ -143,18 +143,18 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'No hay un commit local que publicar.' }
 
     if (-not $exists) {
-        & gh repo create $targetRepository --private --description 'Editor de identidad visual WERTBAU: colores, tipografias y aplicaciones en tiempo real.'
-        if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear el repositorio privado. La copia local queda intacta.' }
+        & gh repo create $targetRepository --public --description 'Editor de identidad visual WERTBAU: colores, tipografias y aplicaciones en tiempo real.'
+        if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear el repositorio publico. La copia local queda intacta.' }
     }
     if ($remotes -notcontains $remoteName) { Run-Git -Arguments @('remote', 'add', $remoteName, $targetUrl) }
     Run-AuthenticatedGit -Arguments @('push', '--set-upstream', $remoteName, 'main')
     $published = & gh repo view $targetRepository --json nameWithOwner,isPrivate,url
     if ($LASTEXITCODE -ne 0) { throw 'El push termino, pero no se pudo verificar la ficha del repositorio.' }
     $verified = ($published -join "`n") | ConvertFrom-Json
-    if ($verified.nameWithOwner -cne $targetRepository -or -not $verified.isPrivate) {
-        throw 'La verificacion final del repositorio no coincide con el destino privado esperado.'
+    if ($verified.nameWithOwner -cne $targetRepository -or ($verified.isPrivate -ne $false)) {
+        throw 'La verificacion final del repositorio no coincide con el destino publico esperado.'
     }
-    Write-Host "Repositorio privado actualizado: $($verified.url)"
+    Write-Host "Repositorio publico actualizado: $($verified.url)"
     Write-Host 'Los proyectos JSON y las variantes del navegador se exportan por separado desde la aplicacion.'
 } finally {
     Pop-Location

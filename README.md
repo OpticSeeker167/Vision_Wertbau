@@ -4,7 +4,13 @@ Editor de identidad visual para explorar los colores, las tipografías y las apl
 
 La aplicación es una web estática de HTML, CSS y JavaScript. Incluye sus tipografías y no requiere instalar paquetes de npm ni configurar un servidor de datos.
 
-## Abrir el proyecto
+## Usar la web
+
+**[Abrir Vision Wertbau](https://wertbau-brand-studio.santischatzel.chatgpt.site)**
+
+Podés usar el editor desde este enlace en el navegador. Las instrucciones siguientes son para ejecutar una copia local.
+
+## Ejecutar una copia local
 
 Requisito para el servidor local: **Node.js 20 o posterior**.
 
@@ -129,7 +135,7 @@ Las pruebas cubren importaciones inválidas y contenidos activos en imágenes, a
 
 ## Repositorio y publicación
 
-Repositorio: **[OpticSeeker167/Vision_Wertbau](https://github.com/OpticSeeker167/Vision_Wertbau)**, con visibilidad **privada**.
+Repositorio: **[OpticSeeker167/Vision_Wertbau](https://github.com/OpticSeeker167/Vision_Wertbau)**, con visibilidad **pública**.
 
 `scripts/publish-github.ps1` prepara y publica el código en ese destino cuando se ejecuta expresamente. Requiere Git, Node, npm y GitHub CLI (`gh`) instalados y una sesión de `gh` ya autenticada como `OpticSeeker167`. No instala software ni guarda tokens en el proyecto.
 
@@ -137,7 +143,7 @@ Repositorio: **[OpticSeeker167/Vision_Wertbau](https://github.com/OpticSeeker167
 .\scripts\publish-github.ps1
 ```
 
-El script ejecuta las verificaciones, crea el repositorio privado si no existe y publica la rama `main` sin forzar el historial. Usa un remoto llamado `github`; conserva los demás remotos. Se detiene si ese remoto apunta a otro repositorio, si el repositorio existente es público o si su historial no es antecesor de la versión local. No combina historiales automáticamente.
+El script ejecuta las verificaciones, crea el repositorio público si no existe y publica la rama `main` sin forzar el historial. Usa un remoto llamado `github`; conserva los demás remotos. Se detiene si ese remoto apunta a otro repositorio, si el repositorio existente es privado o si su historial no es antecesor de la versión local. No cambia la visibilidad ni combina historiales automáticamente.
 
 Para alojar la web en un servicio estático, publicá **todo el contenido de `dist/`**, conservando las rutas relativas. Un repositorio de código y una web desplegada son destinos distintos; subir el código a GitHub no habilita por sí solo un alojamiento web.
 
