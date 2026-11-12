@@ -4,7 +4,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  DEFAULT_PROJECT, TEXT_SURFACES, cloneProject, validateProject,
+  DEFAULT_PROJECT, TEXT_SURFACES, cloneProject, validateProject, resolveCardBackground,
   readSavedProject, writeSavedProject, listVariants, saveVariant, deleteVariant,
 } from '../dist/js/model.js';
 import { FONT_CATALOG, EXTRA_BASE_FONTS, getBundledFont, resolveFontWeight } from '../dist/js/fonts.js';
@@ -45,6 +45,44 @@ test('una variante aislada no modifica la original ni los valores iniciales', ()
   assert.equal(first.images.sign.x, 50);
   assert.equal(first.customFonts.length, 0);
   assert.equal(JSON.stringify(DEFAULT_PROJECT), initial);
+});
+
+test('los fondos conservan el vínculo de paleta o el HEX independiente en cada cara', () => {
+  const legacy = cloneProject();
+  delete legacy.cardBackgrounds;
+  delete legacy.cardAutoContrast;
+  legacy.palette.secondary = '#FFFFEE';
+  const migrated = validateProject(legacy);
+  assert.deepEqual(migrated.cardBackgrounds, { front: 'secondary', back: 'primary' });
+  assert.equal(migrated.cardAutoContrast, true);
+  const { cardBackgrounds, cardAutoContrast, ...preserved } = migrated;
+  assert.deepEqual(preserved, legacy);
+  assert.equal(resolveCardBackground(migrated, 'front'), '#FFFFEE');
+  migrated.cardBackgrounds.front = '#FFFFFF';
+  migrated.cardBackgrounds.back = '#ffffff';
+  const white = validateProject(JSON.parse(JSON.stringify(migrated)));
+  assert.deepEqual(white.cardBackgrounds, { front: '#FFFFFF', back: '#FFFFFF' });
+  white.palette.secondary = '#000000';
+  assert.equal(resolveCardBackground(white, 'front'), '#FFFFFF');
+  assert.equal(resolveCardBackground(white, 'back'), '#FFFFFF');
+  white.cardBackgrounds.front = 'secondary';
+  assert.equal(resolveCardBackground(white, 'front'), '#000000');
+  assert.equal(resolveCardBackground(white, 'back'), '#FFFFFF');
+  assert.deepEqual(white.texts, migrated.texts);
+  assert.throws(() => resolveCardBackground(white, 'unknown'));
+});
+
+test('los fondos importados rechazan CSS y tipos inválidos y descartan campos ajenos', () => {
+  for (const value of [null, [], {}, 'white', '#fff', '#FFFFFG', 'rgb(0,0,0)', 'var(--brand-primary)', 'url(example.com)']) {
+    assert.throws(() => validateProject({ version: 1, cardBackgrounds: { back: value } }), isValidationError);
+  }
+  for (const value of [null, [], JSON.parse('{"__proto__":{}}')]) {
+    assert.throws(() => validateProject({ version: 1, cardBackgrounds: value }), isValidationError);
+  }
+  assert.throws(() => validateProject({ version: 1, cardAutoContrast: 'true' }), isValidationError);
+  const normalized = validateProject({ version: 1, cardBackgrounds: { front: '#abcdef', extra: 'ignored' }, cardAutoContrast: false });
+  assert.deepEqual(normalized.cardBackgrounds, { front: '#ABCDEF', back: 'primary' });
+  assert.equal(normalized.cardAutoContrast, false);
 });
 
 test('un documento parcial válido recibe valores iniciales y descarta campos ajenos', () => {
@@ -181,6 +219,8 @@ test('guardar y reabrir proyectos y variantes mantiene los cuadros nuevos y los 
     stored.set('vision-wertbau:project:v1', JSON.stringify(legacy));
     assert.deepEqual((await readSavedProject()).placements, {});
     const project = cloneProject();
+    project.cardBackgrounds = { front: 'secondary', back: '#ffffff' };
+    project.cardAutoContrast = false;
     project.customTexts = [{ id: 'custom-note', surface: 'stationery-paper', value: 'Ñandú — proyecto 2026', width: 410 }];
     project.placements = {
       'stationery-paper:custom-note': { x: 24.75, y: 230 },
@@ -192,6 +232,7 @@ test('guardar y reabrir proyectos y variantes mantiene los cuadros nuevos y los 
     const variant = await saveVariant(project, 'Composición movida');
     project.customTexts[0].value = 'Cambio posterior';
     project.placements['cards-front:brand'].x = 400;
+    project.cardBackgrounds.back = '#000000';
     assert.deepEqual(variant.project, expected);
     const variants = await listVariants();
     assert.equal(variants.length, 1);

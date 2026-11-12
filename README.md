@@ -59,6 +59,14 @@ El panel de identidad controla los colores **principal, secundario y terciario**
 
 La paleta inicial reproduce la referencia: grafito `#1A1D1C`, marfil `#F5F4EE` y óxido `#6F392C`.
 
+### Fondos del frente y del dorso
+
+En **Tarjetas**, los selectores **Fondos → Frente / Dorso** cambian cada cara de forma independiente y en tiempo real. En **Colores → Fondos de tarjetas** también podés escribir el HEX: para blanco y blanco, usá `#FFFFFF` en ambos campos.
+
+Por defecto, el frente sigue el color secundario y el dorso el primario. Al elegir un color propio, esa cara deja de depender de la paleta; **Usar paleta** restaura el vínculo. La opción **Adaptar textos al fondo** conserva el color original cuando resulta legible y lo adapta cuando un fondo personalizado necesita más contraste. Podés desactivarla para conservar exactamente los colores de texto elegidos.
+
+Los fondos y el ajuste de contraste se guardan en el proyecto, las variantes y el JSON; también se aplican a las miniaturas, el PDF y las variables CSS exportadas. No modifican los colores de las otras láminas.
+
 ### Tipografías
 
 Cada jerarquía tiene su propia familia, peso y espaciado: principal para la marca, secundaria para lectura y terciaria para datos. El catálogo incluye **100 familias adicionales**, más **Inter y Cascadia Mono**, las dos familias de apoyo identificadas en el PDF: **102 familias y 203 archivos WOFF2** en total.
@@ -73,7 +81,7 @@ La transición tipográfica interpola la forma de las letras mediante campos de 
 
 Hacé clic en un texto para seleccionarlo y abrir sus controles en **Contenido**. Podés cambiar el contenido, la jerarquía tipográfica, el color asociado, la escala y la alineación. Hacé doble clic para escribir directamente sobre la lámina.
 
-**Los datos de marca son compartidos; la posición de cada aparición es independiente.** Editar el nombre, el correo, el teléfono o el eslogan actualiza sus apariciones en las aplicaciones. En cambio, arrastrar el correo del dorso de la tarjeta mueve únicamente esa aparición: el correo de la papelería conserva su posición.
+**Los datos de marca son compartidos; la posición de cada aparición es independiente.** Editar el nombre, el correo, el teléfono o el eslogan actualiza sus apariciones en las aplicaciones. En cambio, arrastrar el correo del frente de la tarjeta mueve únicamente esa aparición: el correo de la papelería conserva su posición.
 
 Arrastrá el cuadro sobre la lámina para ubicarlo. También podés introducir las coordenadas horizontal y vertical en **Contenido** o usar **Restablecer posición**. Con el cuadro enfocado en la lámina, las flechas lo desplazan **1 px**; `Shift` + flechas lo desplaza **10 px**. Los movimientos respetan la superficie a la que pertenece el texto y se pueden deshacer.
 
@@ -116,7 +124,7 @@ En la lámina **02 / Tarjetas**, la barra contextual ofrece tres vistas:
 | --- | --- |
 | **Ambas** | Revisar el frente y el dorso dentro de la composición completa. |
 | **Frente** | Editar la cara con los datos de contacto, centrada, ampliada y sin inclinación. |
-| **Dorso** | Editar la cara oscura, que inicialmente muestra solo «wertbau» en minúsculas en la esquina inferior derecha. |
+| **Dorso** | Editar el dorso, cuyo fondo inicial es oscuro y que muestra solo «wertbau» en minúsculas en la esquina inferior derecha. |
 
 El texto «wertbau» del dorso se puede editar y mover; usa un campo propio para conservar las minúsculas elegidas sin cambiar la marca en las otras aplicaciones. Los cuadros que ya habías añadido se conservan en su misma superficie.
 

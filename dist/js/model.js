@@ -33,6 +33,9 @@ export const DEFAULT_PROJECT = {
   version: 1,
   name: 'WERTBAU · 01A',
   palette: { primary: '#1A1D1C', secondary: '#F5F4EE', tertiary: '#6F392C' },
+  // Face names follow the labels in the editor, independently of legacy surface IDs.
+  cardBackgrounds: { front: 'secondary', back: 'primary' },
+  cardAutoContrast: true,
   fonts: {
     primary: { family: 'Space Grotesk', weight: 600, tracking: -1.5 },
     secondary: { family: 'Inter', weight: 400, tracking: 0 },
@@ -86,6 +89,13 @@ export function cloneProject(value = DEFAULT_PROJECT) {
   return typeof structuredClone === 'function'
     ? structuredClone(value)
     : JSON.parse(JSON.stringify(value));
+}
+
+/** A palette role stays linked; a custom HEX stays independent of palette changes. */
+export function resolveCardBackground(project, face) {
+  if (!['front', 'back'].includes(face)) throw new Error('Cara de tarjeta no válida.');
+  const value = project.cardBackgrounds[face];
+  return ROLES.includes(value) ? project.palette[value] : value;
 }
 
 function invalid(message) {
@@ -223,6 +233,15 @@ export function validateProject(raw) {
     }
     result.palette[role] = value.toUpperCase();
   }
+  const cardBackgrounds = child(input, 'cardBackgrounds', defaults.cardBackgrounds, 'Fondos de tarjetas');
+  result.cardBackgrounds = {};
+  for (const face of ['front', 'back']) {
+    const value = cardBackgrounds[face] === undefined ? defaults.cardBackgrounds[face] : cardBackgrounds[face];
+    if (ROLES.includes(value)) result.cardBackgrounds[face] = value;
+    else if (typeof value === 'string' && /^#[0-9a-fA-F]{6}$/.test(value)) result.cardBackgrounds[face] = value.toUpperCase();
+    else throw invalid(`Fondo de ${face === 'front' ? 'frente' : 'dorso'}: elegí un color de la paleta o un hexadecimal de seis dígitos.`);
+  }
+  result.cardAutoContrast = boolean(input.cardAutoContrast, defaults.cardAutoContrast, 'Contraste de tarjetas');
   const fonts = child(input, 'fonts', defaults.fonts, 'Tipografías');
   result.fonts = {};
   for (const role of ROLES) {
