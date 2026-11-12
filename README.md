@@ -115,8 +115,10 @@ En la lámina **02 / Tarjetas**, la barra contextual ofrece tres vistas:
 | Vista | Uso |
 | --- | --- |
 | **Ambas** | Revisar el frente y el dorso dentro de la composición completa. |
-| **Frente** | Editar el frente centrado, ampliado y sin inclinación. |
-| **Dorso** | Editar el dorso centrado, ampliado y sin inclinación. |
+| **Frente** | Editar la cara con los datos de contacto, centrada, ampliada y sin inclinación. |
+| **Dorso** | Editar la cara oscura, que inicialmente muestra solo «wertbau» en minúsculas en la esquina inferior derecha. |
+
+El texto «wertbau» del dorso se puede editar y mover; usa un campo propio para conservar las minúsculas elegidas sin cambiar la marca en las otras aplicaciones. Los cuadros que ya habías añadido se conservan en su misma superficie.
 
 Los textos conservan sus posiciones al alternar entre vistas. La presentación mantiene la vista seleccionada; las miniaturas y la exportación de las cinco láminas a PDF muestran siempre **Ambas**.
 

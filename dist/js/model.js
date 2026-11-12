@@ -40,6 +40,7 @@ export const DEFAULT_PROJECT = {
   },
   texts: {
     brand: text('WERTBAU', 'primary'),
+    cardBackBrand: { ...text('wertbau', 'primary', 'secondary'), align: 'right' },
     tagline: text('Arquitectura y construcción'),
     claim: text('Construir con criterio.'),
     email: text('contact@wertbau.com.ar'),
