@@ -6,7 +6,7 @@ La aplicación es una web estática de HTML, CSS y JavaScript. Incluye sus tipog
 
 ## Usar la web
 
-**[Abrir Vision Wertbau](https://wertbau-brand-studio.santischatzel.chatgpt.site)**
+**[Abrir Vision Wertbau](https://opticseeker167.github.io/Vision_Wertbau/)**
 
 Podés usar el editor desde este enlace en el navegador. Las instrucciones siguientes son para ejecutar una copia local.
 
@@ -184,6 +184,10 @@ npm test
 La suite actual contiene **24 pruebas**. Cubre importaciones inválidas y contenidos activos en imágenes, aislamiento entre copias, manejo de una copia local dañada, compatibilidad con proyectos de versión 1 anteriores, cuadros y posiciones, conversión del arrastre y sus límites, correspondencia del catálogo con los 203 archivos reales y propiedades del cálculo de distancia para la animación. La revisión visual y la impresión se comprueban además en navegador.
 
 ## Repositorio y publicación
+
+La web pública se sirve con **GitHub Pages** en <https://opticseeker167.github.io/Vision_Wertbau/>. La rama `main` contiene el proyecto completo; `gh-pages` contiene los archivos de `dist/` en su raíz, junto con `.nojekyll`. GitHub Pages publica desde `gh-pages` y `/ (root)`. Al actualizar la aplicación, actualizá también esa rama con el contenido de `dist/` y comprobá que el proceso «pages build and deployment» termine correctamente.
+
+Si venís del enlace anterior, exportá tus proyectos o variantes como JSON e importalos en esta dirección. El guardado del navegador pertenece a cada origen y no se traslada automáticamente.
 
 Repositorio: **[OpticSeeker167/Vision_Wertbau](https://github.com/OpticSeeker167/Vision_Wertbau)**, con visibilidad **pública**.
 
