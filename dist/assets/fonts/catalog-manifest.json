@@ -1,0 +1,2355 @@
+{
+  "source": "https://fonts.google.com/metadata/fonts",
+  "verified_at": "2026-11-12",
+  "catalog_families": 100,
+  "additional_base_families": [
+    "Inter",
+    "Cascadia Mono"
+  ],
+  "families": [
+    {
+      "family": "Albert Sans",
+      "id": "albert-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "albert-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHq5P_rA.ttf",
+          "bytes": 15400,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "albert-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/albertsans/v4/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHTJT_rA.ttf",
+          "bytes": 16016,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-albertsans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/albertsans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Alegreya Sans",
+      "id": "alegreya-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "alegreya-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/alegreyasans/v28/5aUz9_-1phKLFgshYDvh6Vwt3V0.ttf",
+          "bytes": 61748,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "alegreya-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/alegreyasans/v28/5aUu9_-1phKLFgshYDvh6Vwt5eFImE0.ttf",
+          "bytes": 62744,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-alegreyasans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/alegreyasans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Anonymous Pro",
+      "id": "anonymous-pro",
+      "files": [
+        {
+          "weight": 400,
+          "file": "anonymous-pro-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/anonymouspro/v22/rP2Bp2a15UIB7Un-bOeISG3pLlw.ttf",
+          "bytes": 34644,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "anonymous-pro-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/anonymouspro/v22/rP2cp2a15UIB7Un-bOeISG3pFuAT0Ck.ttf",
+          "bytes": 33104,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-anonymouspro.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anonymouspro/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap"
+    },
+    {
+      "family": "Anton",
+      "id": "anton",
+      "files": [
+        {
+          "weight": 400,
+          "file": "anton-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm0K0.ttf",
+          "bytes": 47012,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-anton.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap"
+    },
+    {
+      "family": "Archivo",
+      "id": "archivo",
+      "files": [
+        {
+          "weight": 400,
+          "file": "archivo-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp8A.ttf",
+          "bytes": 27884,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "archivo-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp8A.ttf",
+          "bytes": 28152,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-archivo.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+    },
+    {
+      "family": "Archivo Black",
+      "id": "archivo-black",
+      "files": [
+        {
+          "weight": 400,
+          "file": "archivo-black-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/archivoblack/v23/HTxqL289NzCGg4MzN6KJ7eW6OYs.ttf",
+          "bytes": 30280,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-archivoblack.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Archivo+Black:wght@400&display=swap"
+    },
+    {
+      "family": "Archivo Narrow",
+      "id": "archivo-narrow",
+      "files": [
+        {
+          "weight": 400,
+          "file": "archivo-narrow-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvLFGKpA.ttf",
+          "bytes": 21624,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "archivo-narrow-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/archivonarrow/v35/tss5ApVBdCYD5Q7hcxTE1ArZ0Zz8oY2KRmwvKhhvy1aKpA.ttf",
+          "bytes": 21616,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-archivonarrow.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivonarrow/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap"
+    },
+    {
+      "family": "Asap",
+      "id": "asap",
+      "files": [
+        {
+          "weight": 400,
+          "file": "asap-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/asap/v34/KFOOCniXp96a4Tc2DaTeuDAoKsE617JFc49knOIYdjTYkqUsLg.ttf",
+          "bytes": 25604,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "asap-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/asap/v34/KFOOCniXp96a4Tc2DaTeuDAoKsE617JFc49knOIYdjTYdaIsLg.ttf",
+          "bytes": 25912,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-asap.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/asap/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap"
+    },
+    {
+      "family": "Asap Condensed",
+      "id": "asap-condensed",
+      "files": [
+        {
+          "weight": 400,
+          "file": "asap-condensed-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/asapcondensed/v18/pxidypY1o9NHyXh3WvSbGSggdNeL.ttf",
+          "bytes": 35236,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "asap-condensed-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/asapcondensed/v18/pxieypY1o9NHyXh3WvSbGSggdO83TWlE.ttf",
+          "bytes": 35588,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-asapcondensed.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/asapcondensed/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap"
+    },
+    {
+      "family": "Assistant",
+      "id": "assistant",
+      "files": [
+        {
+          "weight": 400,
+          "file": "assistant-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/assistant/v24/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGE.ttf",
+          "bytes": 19764,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "assistant-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/assistant/v24/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtgFgEGE.ttf",
+          "bytes": 19800,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-assistant.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/assistant/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap"
+    },
+    {
+      "family": "Audiowide",
+      "id": "audiowide",
+      "files": [
+        {
+          "weight": 400,
+          "file": "audiowide-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/audiowide/v22/l7gdbjpo0cum0ckerWCtkQ.ttf",
+          "bytes": 18632,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-audiowide.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/audiowide/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Audiowide:wght@400&display=swap"
+    },
+    {
+      "family": "Azeret Mono",
+      "id": "azeret-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "azeret-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/azeretmono/v21/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfnPVh0g.ttf",
+          "bytes": 15556,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "azeret-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/azeretmono/v21/3XF5ErsiyJsY9O_Gepph-FvtTQgMQUdNekSfe_Jh0g.ttf",
+          "bytes": 15228,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-azeretmono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/azeretmono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Barlow",
+      "id": "barlow",
+      "files": [
+        {
+          "weight": 400,
+          "file": "barlow-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7EPCw.ttf",
+          "bytes": 32320,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "barlow-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3t-4c4A.ttf",
+          "bytes": 33428,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-barlow.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+    },
+    {
+      "family": "Barlow Condensed",
+      "id": "barlow-condensed",
+      "files": [
+        {
+          "weight": 400,
+          "file": "barlow-condensed-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTx3L3I-JCGChYJ8VI-L6OO_au7B2xY.ttf",
+          "bytes": 31244,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "barlow-condensed-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf",
+          "bytes": 33032,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-barlowcondensed.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "id": "be-vietnam-pro",
+      "files": [
+        {
+          "weight": 400,
+          "file": "be-vietnam-pro-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Eww.ttf",
+          "bytes": 35676,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "be-vietnam-pro-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIF8y.ttf",
+          "bytes": 38512,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-bevietnampro.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bevietnampro/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap"
+    },
+    {
+      "family": "Bebas Neue",
+      "id": "bebas-neue",
+      "files": [
+        {
+          "weight": 400,
+          "file": "bebas-neue-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXooxW4.ttf",
+          "bytes": 20240,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-bebasneue.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap"
+    },
+    {
+      "family": "Bodoni Moda",
+      "id": "bodoni-moda",
+      "files": [
+        {
+          "weight": 400,
+          "file": "bodoni-moda-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/bodonimoda/v28/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oU7awIA.ttf",
+          "bytes": 19884,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "bodoni-moda-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/bodonimoda/v28/aFT67PxzY382XsXX63LUYL6GYFcan6NJrKp-VPjfJMShrpsGFUt8oandwIA.ttf",
+          "bytes": 20484,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-bodonimoda.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap"
+    },
+    {
+      "family": "Bruno Ace",
+      "id": "bruno-ace",
+      "files": [
+        {
+          "weight": 400,
+          "file": "bruno-ace-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/brunoace/v7/WwkcxPa2E06x4trkOj_kMA.ttf",
+          "bytes": 20348,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-brunoace.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/brunoace/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Bruno+Ace:wght@400&display=swap"
+    },
+    {
+      "family": "Cabin",
+      "id": "cabin",
+      "files": [
+        {
+          "weight": 400,
+          "file": "cabin-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkV2EL7E.ttf",
+          "bytes": 26940,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "cabin-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cabin/v35/u-4X0qWljRw-PfU81xCKCpdpbgZJl6XFpfEd7eA9BIxxkbqDL7E.ttf",
+          "bytes": 26572,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-cabin.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap"
+    },
+    {
+      "family": "Cascadia Mono",
+      "id": "cascadia-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "cascadia-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cascadiamono/v5/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTYdsWVk.ttf",
+          "bytes": 107488,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "cascadia-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cascadiamono/v5/TUZlzw5pquJF3iuizJDZYqr1Q54PIbV3QmZsSTb6tmVk.ttf",
+          "bytes": 108744,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-cascadiamono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cascadiamono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Catamaran",
+      "id": "catamaran",
+      "files": [
+        {
+          "weight": 400,
+          "file": "catamaran-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/catamaran/v28/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjd1ak.ttf",
+          "bytes": 22464,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "catamaran-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/catamaran/v28/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPJ_a1ak.ttf",
+          "bytes": 22684,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-catamaran.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/catamaran/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap"
+    },
+    {
+      "family": "Chivo",
+      "id": "chivo",
+      "files": [
+        {
+          "weight": 400,
+          "file": "chivo-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/chivo/v21/va9b4kzIxd1KFppkaRKvDRPJVDf_vB_ulw.ttf",
+          "bytes": 27944,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "chivo-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/chivo/v21/va9b4kzIxd1KFppkaRKvDRPJVDf_Wxjulw.ttf",
+          "bytes": 27380,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-chivo.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap"
+    },
+    {
+      "family": "Commissioner",
+      "id": "commissioner",
+      "files": [
+        {
+          "weight": 400,
+          "file": "commissioner-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/commissioner/v24/tDaH2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8meZm0rk4eF-ZugTMNdGPc.ttf",
+          "bytes": 53976,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "commissioner-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/commissioner/v24/tDaH2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8meZm0rk4eF-ZugTCRaGPc.ttf",
+          "bytes": 54868,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-commissioner.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/commissioner/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "id": "cormorant-garamond",
+      "files": [
+        {
+          "weight": 400,
+          "file": "cormorant-garamond-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnM.ttf",
+          "bytes": 63464,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "cormorant-garamond-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9GnM.ttf",
+          "bytes": 61280,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-cormorantgaramond.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap"
+    },
+    {
+      "family": "Crimson Pro",
+      "id": "crimson-pro",
+      "files": [
+        {
+          "weight": 400,
+          "file": "crimson-pro-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/crimsonpro/v28/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZzm18OA.ttf",
+          "bytes": 33568,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "crimson-pro-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/crimsonpro/v28/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8OA.ttf",
+          "bytes": 34460,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-crimsonpro.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/crimsonpro/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap"
+    },
+    {
+      "family": "DM Mono",
+      "id": "dm-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "dm-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYhh0.ttf",
+          "bytes": 19076,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 500,
+          "file": "dm-mono-500.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzIYQ.ttf",
+          "bytes": 19288,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-dmmono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmmono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap"
+    },
+    {
+      "family": "DM Sans",
+      "id": "dm-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "dm-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+          "bytes": 19216,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "dm-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf",
+          "bytes": 19444,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-dmsans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "DM Serif Display",
+      "id": "dm-serif-display",
+      "files": [
+        {
+          "weight": 400,
+          "file": "dm-serif-display-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2K_c.ttf",
+          "bytes": 29568,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-dmserifdisplay.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap"
+    },
+    {
+      "family": "Days One",
+      "id": "days-one",
+      "files": [
+        {
+          "weight": 400,
+          "file": "days-one-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/daysone/v19/mem9YaCnxnKRiYZOCLYV.ttf",
+          "bytes": 20916,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-daysone.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/daysone/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Days+One:wght@400&display=swap"
+    },
+    {
+      "family": "Dosis",
+      "id": "dosis",
+      "files": [
+        {
+          "weight": 400,
+          "file": "dosis-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dosis/v34/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7MV3A.ttf",
+          "bytes": 26104,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "dosis-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/dosis/v34/HhyJU5sn9vOmLxNkIwRSjTVNWLEJ0LQV3A.ttf",
+          "bytes": 26196,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-dosis.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dosis/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap"
+    },
+    {
+      "family": "EB Garamond",
+      "id": "eb-garamond",
+      "files": [
+        {
+          "weight": 400,
+          "file": "eb-garamond-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RUAw.ttf",
+          "bytes": 127196,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "eb-garamond-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ebgaramond/v33/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-DPNUAw.ttf",
+          "bytes": 141480,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-ebgaramond.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ebgaramond/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap"
+    },
+    {
+      "family": "Epilogue",
+      "id": "epilogue",
+      "files": [
+        {
+          "weight": 400,
+          "file": "epilogue-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/epilogue/v20/O4ZMFGj5hxF0EhjimngomvnCCtqb30OXMDPiDA.ttf",
+          "bytes": 25824,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "epilogue-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/epilogue/v20/O4ZMFGj5hxF0EhjimngomvnCCtqb30OX1zTiDA.ttf",
+          "bytes": 26960,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-epilogue.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/epilogue/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
+    },
+    {
+      "family": "Exo 2",
+      "id": "exo-2",
+      "files": [
+        {
+          "weight": 400,
+          "file": "exo-2-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/exo2/v26/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKcPg.ttf",
+          "bytes": 43684,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "exo-2-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/exo2/v26/7cH1v4okm5zmbvwkAx_sfcEuiD8jWfWcPg.ttf",
+          "bytes": 45348,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-exo2.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/exo2/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
+    },
+    {
+      "family": "Figtree",
+      "id": "figtree",
+      "files": [
+        {
+          "weight": 400,
+          "file": "figtree-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf",
+          "bytes": 15296,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "figtree-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf",
+          "bytes": 15252,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-figtree.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap"
+    },
+    {
+      "family": "Fira Code",
+      "id": "fira-code",
+      "files": [
+        {
+          "weight": 400,
+          "file": "fira-code-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVc.ttf",
+          "bytes": 66672,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "fira-code-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firacode/v27/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVc.ttf",
+          "bytes": 65824,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-firacode.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap"
+    },
+    {
+      "family": "Fira Sans",
+      "id": "fira-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "fira-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5VfkA.ttf",
+          "bytes": 100384,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "fira-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3uQQ.ttf",
+          "bytes": 107796,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-firasans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Fira Sans Condensed",
+      "id": "fira-sans-condensed",
+      "files": [
+        {
+          "weight": 400,
+          "file": "fira-sans-condensed-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firasanscondensed/v11/wEOhEADFm8hSaQTFG18FErVhsC9x-tarYfE.ttf",
+          "bytes": 103372,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "fira-sans-condensed-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/firasanscondensed/v11/wEOsEADFm8hSaQTFG18FErVhsC9x-tarWU3IiMM.ttf",
+          "bytes": 108660,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-firasanscondensed.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/firasanscondensed/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap"
+    },
+    {
+      "family": "Fraunces",
+      "id": "fraunces",
+      "files": [
+        {
+          "weight": 400,
+          "file": "fraunces-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIctxujDg.ttf",
+          "bytes": 30612,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "fraunces-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcUByjDg.ttf",
+          "bytes": 31252,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-fraunces.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap"
+    },
+    {
+      "family": "Geist",
+      "id": "geist",
+      "files": [
+        {
+          "weight": 400,
+          "file": "geist-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOM4nQ.ttf",
+          "bytes": 27384,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "geist-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_Re-Q4nQ.ttf",
+          "bytes": 28184,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-geist.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geist/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Geist:wght@400;700&display=swap"
+    },
+    {
+      "family": "Geist Mono",
+      "id": "geist-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "geist-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeE9KJ5T.ttf",
+          "bytes": 25424,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "geist-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeHaL55T.ttf",
+          "bytes": 26208,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-geistmono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/geistmono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Hanken Grotesk",
+      "id": "hanken-grotesk",
+      "files": [
+        {
+          "weight": 400,
+          "file": "hanken-grotesk-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/hankengrotesk/v12/ieVq2YZDLWuGJpnzaiwFXS9tYvBRzyFLlZg_f_Ncs2Za4Q.ttf",
+          "bytes": 21564,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "hanken-grotesk-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/hankengrotesk/v12/ieVq2YZDLWuGJpnzaiwFXS9tYvBRzyFLlZg_f_NcVGFa4Q.ttf",
+          "bytes": 21984,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-hankengrotesk.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/hankengrotesk/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "id": "ibm-plex-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "ibm-plex-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F63fjptAgt5VM-kVkqdyU8n5ig.ttf",
+          "bytes": 37148,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 500,
+          "file": "ibm-plex-mono-500.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F6qfjptAgt5VM-kVkqdyU8n3twJ8lc.ttf",
+          "bytes": 38164,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 600,
+          "file": "ibm-plex-mono-600.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F6qfjptAgt5VM-kVkqdyU8n3vAO8lc.ttf",
+          "bytes": 39004,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "ibm-plex-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexmono/v23/-F6qfjptAgt5VM-kVkqdyU8n3pQP8lc.ttf",
+          "bytes": 38380,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-ibmplexmono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "id": "ibm-plex-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "ibm-plex-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llzAA.ttf",
+          "bytes": 69860,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "ibm-plex-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDDV5zAA.ttf",
+          "bytes": 69500,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-ibmplexsans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "IBM Plex Serif",
+      "id": "ibm-plex-serif",
+      "files": [
+        {
+          "weight": 400,
+          "file": "ibm-plex-serif-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexserif/v20/jizDREVNn1dOx-zrZ2X3pZvkThUY.ttf",
+          "bytes": 48764,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "ibm-plex-serif-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ibmplexserif/v20/jizAREVNn1dOx-zrZ2X3pZvkTi2k_hIz.ttf",
+          "bytes": 48016,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-ibmplexserif.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap"
+    },
+    {
+      "family": "Inconsolata",
+      "id": "inconsolata",
+      "files": [
+        {
+          "weight": 400,
+          "file": "inconsolata-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8aRo.ttf",
+          "bytes": 36396,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "inconsolata-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inconsolata/v37/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp2I7aRo.ttf",
+          "bytes": 37148,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-inconsolata.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inconsolata/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+    },
+    {
+      "family": "Instrument Sans",
+      "id": "instrument-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "instrument-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-Qf1.ttf",
+          "bytes": 20864,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "instrument-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gf1.ttf",
+          "bytes": 21064,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-instrumentsans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Instrument Serif",
+      "id": "instrument-serif",
+      "files": [
+        {
+          "weight": 400,
+          "file": "instrument-serif-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-2zI.ttf",
+          "bytes": 25212,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-instrumentserif.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400&display=swap"
+    },
+    {
+      "family": "Inter",
+      "id": "inter",
+      "files": [
+        {
+          "weight": 100,
+          "file": "inter-100.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZg.ttf",
+          "bytes": 107008,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 200,
+          "file": "inter-200.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZg.ttf",
+          "bytes": 110184,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 300,
+          "file": "inter-300.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf",
+          "bytes": 110312,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 400,
+          "file": "inter-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+          "bytes": 108288,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 500,
+          "file": "inter-500.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+          "bytes": 111716,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 600,
+          "file": "inter-600.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+          "bytes": 112496,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "inter-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+          "bytes": 112320,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 800,
+          "file": "inter-800.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf",
+          "bytes": 112152,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 900,
+          "file": "inter-900.woff2",
+          "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf",
+          "bytes": 109296,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-inter.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    },
+    {
+      "family": "JetBrains Mono",
+      "id": "jetbrains-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "jetbrains-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf",
+          "bytes": 37764,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "jetbrains-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tjPQ.ttf",
+          "bytes": 39044,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-jetbrainsmono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Jost",
+      "id": "jost",
+      "files": [
+        {
+          "weight": 400,
+          "file": "jost-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7myjJQVG.ttf",
+          "bytes": 17356,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "jost-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/jost/v20/92zPtBhPNqw79Ij1E865zBUv7mxEIgVG.ttf",
+          "bytes": 19484,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-jost.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jost/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+    },
+    {
+      "family": "Karla",
+      "id": "karla",
+      "files": [
+        {
+          "weight": 400,
+          "file": "karla-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/karla/v33/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqqFA.ttf",
+          "bytes": 18804,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "karla-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/karla/v33/qkBIXvYC6trAT55ZBi1ueQVIjQTDH52qFA.ttf",
+          "bytes": 19004,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-karla.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/karla/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+    },
+    {
+      "family": "Lato",
+      "id": "lato",
+      "files": [
+        {
+          "weight": 400,
+          "file": "lato-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHvxk.ttf",
+          "bytes": 27624,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "lato-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVew8.ttf",
+          "bytes": 26952,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-lato.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    },
+    {
+      "family": "Lexend",
+      "id": "lexend",
+      "files": [
+        {
+          "weight": 400,
+          "file": "lexend-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsW_LA.ttf",
+          "bytes": 25872,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "lexend-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lexend/v26/wlptgwvFAVdoq2_F94zlCfv0bz1WC9wR_LA.ttf",
+          "bytes": 27156,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-lexend.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lexend/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap"
+    },
+    {
+      "family": "Libre Baskerville",
+      "id": "libre-baskerville",
+      "files": [
+        {
+          "weight": 400,
+          "file": "libre-baskerville-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17uj8Q4SCQ.ttf",
+          "bytes": 37184,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "libre-baskerville-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/librebaskerville/v24/kmKUZrc3Hgbbcjq75U4uslyuy4kn0olVQ-LglH6T17ujFgkSCQ.ttf",
+          "bytes": 37968,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-librebaskerville.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librebaskerville/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+    },
+    {
+      "family": "Libre Caslon Display",
+      "id": "libre-caslon-display",
+      "files": [
+        {
+          "weight": 400,
+          "file": "libre-caslon-display-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/librecaslondisplay/v18/TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr2lR.ttf",
+          "bytes": 35448,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-librecaslondisplay.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/librecaslondisplay/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Display:wght@400&display=swap"
+    },
+    {
+      "family": "Lora",
+      "id": "lora",
+      "files": [
+        {
+          "weight": 400,
+          "file": "lora-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787weuyJG.ttf",
+          "bytes": 46908,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "lora-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJG.ttf",
+          "bytes": 47560,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-lora.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+    },
+    {
+      "family": "Manrope",
+      "id": "manrope",
+      "files": [
+        {
+          "weight": 400,
+          "file": "manrope-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+          "bytes": 30556,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "manrope-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
+          "bytes": 30940,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-manrope.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+    },
+    {
+      "family": "Maven Pro",
+      "id": "maven-pro",
+      "files": [
+        {
+          "weight": 400,
+          "file": "maven-pro-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/mavenpro/v40/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8SX25nA.ttf",
+          "bytes": 21892,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "maven-pro-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/mavenpro/v40/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8cLx5nA.ttf",
+          "bytes": 22756,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-mavenpro.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mavenpro/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap"
+    },
+    {
+      "family": "Merriweather",
+      "id": "merriweather",
+      "files": [
+        {
+          "weight": 400,
+          "file": "merriweather-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDr3icqEw.ttf",
+          "bytes": 217088,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "merriweather-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAqEw.ttf",
+          "bytes": 216112,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-merriweather.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+    },
+    {
+      "family": "Montserrat",
+      "id": "montserrat",
+      "files": [
+        {
+          "weight": 400,
+          "file": "montserrat-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf",
+          "bytes": 61840,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "montserrat-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf",
+          "bytes": 63572,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-montserrat.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    },
+    {
+      "family": "Mulish",
+      "id": "mulish",
+      "files": [
+        {
+          "weight": 400,
+          "file": "mulish-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf",
+          "bytes": 34968,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "mulish-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf",
+          "bytes": 34836,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-mulish.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mulish/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+    },
+    {
+      "family": "Newsreader",
+      "id": "newsreader",
+      "files": [
+        {
+          "weight": 400,
+          "file": "newsreader-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_ADA.ttf",
+          "bytes": 39080,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "newsreader-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438wn4jADA.ttf",
+          "bytes": 42424,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-newsreader.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap"
+    },
+    {
+      "family": "Noto Sans",
+      "id": "noto-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "noto-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf",
+          "bytes": 181104,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "noto-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf",
+          "bytes": 189948,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-notosans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Nunito Sans",
+      "id": "nunito-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "nunito-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/nunitosans/v19/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilntA.ttf",
+          "bytes": 35708,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "nunito-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/nunitosans/v19/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4GMS5ntA.ttf",
+          "bytes": 35268,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-nunitosans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunitosans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Onest",
+      "id": "onest",
+      "files": [
+        {
+          "weight": 400,
+          "file": "onest-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/onest/v11/gNMZW3F-SZuj7zOT0IfSjTS16cPh9R-Zsg.ttf",
+          "bytes": 33328,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "onest-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/onest/v11/gNMZW3F-SZuj7zOT0IfSjTS16cPhEhiZsg.ttf",
+          "bytes": 35552,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-onest.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap"
+    },
+    {
+      "family": "Open Sans",
+      "id": "open-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "open-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf",
+          "bytes": 56244,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "open-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf",
+          "bytes": 54304,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-opensans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Orbitron",
+      "id": "orbitron",
+      "files": [
+        {
+          "weight": 400,
+          "file": "orbitron-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/orbitron/v35/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6xpg.ttf",
+          "bytes": 7024,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "orbitron-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/orbitron/v35/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1ny_Cmxpg.ttf",
+          "bytes": 7184,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-orbitron.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/orbitron/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+    },
+    {
+      "family": "Oswald",
+      "id": "oswald",
+      "files": [
+        {
+          "weight": 400,
+          "file": "oswald-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf",
+          "bytes": 31624,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "oswald-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf",
+          "bytes": 32756,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-oswald.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+    },
+    {
+      "family": "Outfit",
+      "id": "outfit",
+      "files": [
+        {
+          "weight": 400,
+          "file": "outfit-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4E.ttf",
+          "bytes": 18092,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "outfit-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/outfit/v15/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf",
+          "bytes": 18224,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-outfit.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+    },
+    {
+      "family": "Overpass",
+      "id": "overpass",
+      "files": [
+        {
+          "weight": 400,
+          "file": "overpass-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6_PPrOQ.ttf",
+          "bytes": 59348,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "overpass-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/overpass/v19/qFda35WCmI96Ajtm83upeyoaX6QPnlo6G_TrOQ.ttf",
+          "bytes": 61576,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-overpass.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/overpass/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+    },
+    {
+      "family": "Oxanium",
+      "id": "oxanium",
+      "files": [
+        {
+          "weight": 400,
+          "file": "oxanium-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/oxanium/v21/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G81JfniM.ttf",
+          "bytes": 11840,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "oxanium-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/oxanium/v21/RrQPboN_4yJ0JmiMUW7sIGjd1IA9G82ueXiM.ttf",
+          "bytes": 11864,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-oxanium.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oxanium/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap"
+    },
+    {
+      "family": "PT Serif",
+      "id": "pt-serif",
+      "files": [
+        {
+          "weight": 400,
+          "file": "pt-serif-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ptserif/v19/EJRVQgYoZZY2vCFuvDFR.ttf",
+          "bytes": 83372,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "pt-serif-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/ptserif/v19/EJRSQgYoZZY2vCFuvAnt65qV.ttf",
+          "bytes": 72308,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-ptserif.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ptserif/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+    },
+    {
+      "family": "Playfair Display",
+      "id": "playfair-display",
+      "files": [
+        {
+          "weight": 400,
+          "file": "playfair-display-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQ.ttf",
+          "bytes": 42344,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "playfair-display-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf",
+          "bytes": 45576,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-playfairdisplay.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+    },
+    {
+      "family": "Plus Jakarta Sans",
+      "id": "plus-jakarta-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "plus-jakarta-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU7NSg.ttf",
+          "bytes": 22112,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "plus-jakarta-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_TknNSg.ttf",
+          "bytes": 22976,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-plusjakartasans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/plusjakartasans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Poppins",
+      "id": "poppins",
+      "files": [
+        {
+          "weight": 400,
+          "file": "poppins-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJA.ttf",
+          "bytes": 49656,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "poppins-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7V1s.ttf",
+          "bytes": 49164,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-poppins.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    },
+    {
+      "family": "Prata",
+      "id": "prata",
+      "files": [
+        {
+          "weight": 400,
+          "file": "prata-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-vWI.ttf",
+          "bytes": 36496,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-prata.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/prata/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Prata:wght@400&display=swap"
+    },
+    {
+      "family": "Public Sans",
+      "id": "public-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "public-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpm5ww.ttf",
+          "bytes": 22868,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "public-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/publicsans/v21/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymu8Z65ww.ttf",
+          "bytes": 22960,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-publicsans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap"
+    },
+    {
+      "family": "Questrial",
+      "id": "questrial",
+      "files": [
+        {
+          "weight": 400,
+          "file": "questrial-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/questrial/v19/QdVUSTchPBm7nuUeVf7EuQ.ttf",
+          "bytes": 53460,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-questrial.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/questrial/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Questrial:wght@400&display=swap"
+    },
+    {
+      "family": "Rajdhani",
+      "id": "rajdhani",
+      "files": [
+        {
+          "weight": 400,
+          "file": "rajdhani-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/rajdhani/v17/LDIxapCSOBg7S-QT7q4A.ttf",
+          "bytes": 96416,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "rajdhani-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pa8FsOs.ttf",
+          "bytes": 98912,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-rajdhani.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rajdhani/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap"
+    },
+    {
+      "family": "Raleway",
+      "id": "raleway",
+      "files": [
+        {
+          "weight": 400,
+          "file": "raleway-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf",
+          "bytes": 53760,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "raleway-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/raleway/v37/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf",
+          "bytes": 54448,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-raleway.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/raleway/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    },
+    {
+      "family": "Recursive",
+      "id": "recursive",
+      "files": [
+        {
+          "weight": 400,
+          "file": "recursive-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/recursive/v44/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadCCk018.ttf",
+          "bytes": 44756,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "recursive-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/recursive/v44/8vJN7wMr0mhh-RQChyHEH06TlXhq_gukbYrFMk1QuAIcyEwG_X-dpEfaE5YaERmK-CImKsvxvU-MXGX2fSqasNfUvz2xbXfn1uEQadBllE18.ttf",
+          "bytes": 44836,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-recursive.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/recursive/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap"
+    },
+    {
+      "family": "Red Hat Display",
+      "id": "red-hat-display",
+      "files": [
+        {
+          "weight": 400,
+          "file": "red-hat-display-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/redhatdisplay/v21/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWckg.ttf",
+          "bytes": 18016,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "red-hat-display-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/redhatdisplay/v21/8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRckg.ttf",
+          "bytes": 18820,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-redhatdisplay.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/redhatdisplay/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap"
+    },
+    {
+      "family": "Red Hat Text",
+      "id": "red-hat-text",
+      "files": [
+        {
+          "weight": 400,
+          "file": "red-hat-text-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML7hwVrY.ttf",
+          "bytes": 18472,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "red-hat-text-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/redhattext/v19/RrQCbohi_ic6B3yVSzGBrMx6ZI_cy1A6Ok2ML193VrY.ttf",
+          "bytes": 18484,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-redhattext.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/redhattext/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap"
+    },
+    {
+      "family": "Roboto",
+      "id": "roboto",
+      "files": [
+        {
+          "weight": 400,
+          "file": "roboto-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf",
+          "bytes": 55064,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "roboto-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf",
+          "bytes": 56556,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-roboto.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    },
+    {
+      "family": "Roboto Condensed",
+      "id": "roboto-condensed",
+      "files": [
+        {
+          "weight": 400,
+          "file": "roboto-condensed-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyovBJ.ttf",
+          "bytes": 50696,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "roboto-condensed-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpfBJ.ttf",
+          "bytes": 52740,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-robotocondensed.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotocondensed/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+    },
+    {
+      "family": "Roboto Mono",
+      "id": "roboto-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "roboto-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vqPQw.ttf",
+          "bytes": 37600,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "roboto-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/robotomono/v31/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2PQw.ttf",
+          "bytes": 37712,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-robotomono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotomono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Rubik",
+      "id": "rubik",
+      "files": [
+        {
+          "weight": 400,
+          "file": "rubik-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UA.ttf",
+          "bytes": 56372,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "rubik-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UA.ttf",
+          "bytes": 57116,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-rubik.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+    },
+    {
+      "family": "Russo One",
+      "id": "russo-one",
+      "files": [
+        {
+          "weight": 400,
+          "file": "russo-one-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/russoone/v18/Z9XUDmZRWg6M1LvRYsH-yA.ttf",
+          "bytes": 12744,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-russoone.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/russoone/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Russo+One:wght@400&display=swap"
+    },
+    {
+      "family": "Schibsted Grotesk",
+      "id": "schibsted-grotesk",
+      "files": [
+        {
+          "weight": 400,
+          "file": "schibsted-grotesk-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNIsEATw.ttf",
+          "bytes": 36172,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "schibsted-grotesk-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/JqzK5SSPQuCQF3t8uOwiUL-taUTtarVKQ9vZ6pJJWlMNxcYATw.ttf",
+          "bytes": 37600,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-schibstedgrotesk.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/schibstedgrotesk/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&display=swap"
+    },
+    {
+      "family": "Sora",
+      "id": "sora",
+      "files": [
+        {
+          "weight": 400,
+          "file": "sora-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSdSnn-K.ttf",
+          "bytes": 19308,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "sora-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mX-K.ttf",
+          "bytes": 19828,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-sora.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap"
+    },
+    {
+      "family": "Source Code Pro",
+      "id": "source-code-pro",
+      "files": [
+        {
+          "weight": 400,
+          "file": "source-code-pro-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourcecodepro/v32/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf",
+          "bytes": 46876,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "source-code-pro-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourcecodepro/v32/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DCuXhM4.ttf",
+          "bytes": 46968,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-sourcecodepro.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcecodepro/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap"
+    },
+    {
+      "family": "Source Sans 3",
+      "id": "source-sans-3",
+      "files": [
+        {
+          "weight": 400,
+          "file": "source-sans-3-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
+          "bytes": 75116,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "source-sans-3-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
+          "bytes": 74660,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-sourcesans3.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap"
+    },
+    {
+      "family": "Source Serif 4",
+      "id": "source-serif-4",
+      "files": [
+        {
+          "weight": 400,
+          "file": "source-serif-4-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourceserif4/v15/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjihdqrhw.ttf",
+          "bytes": 55048,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "source-serif-4-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/sourceserif4/v15/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjivBtrhw.ttf",
+          "bytes": 59380,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-sourceserif4.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;700&display=swap"
+    },
+    {
+      "family": "Space Grotesk",
+      "id": "space-grotesk",
+      "files": [
+        {
+          "weight": 300,
+          "file": "space-grotesk-300.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsj.ttf",
+          "bytes": 25728,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 400,
+          "file": "space-grotesk-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsj.ttf",
+          "bytes": 26616,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 500,
+          "file": "space-grotesk-500.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUUsj.ttf",
+          "bytes": 26376,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 600,
+          "file": "space-grotesk-600.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42Vksj.ttf",
+          "bytes": 26480,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "space-grotesk-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVksj.ttf",
+          "bytes": 25604,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-spacegrotesk.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    },
+    {
+      "family": "Space Mono",
+      "id": "space-mono",
+      "files": [
+        {
+          "weight": 400,
+          "file": "space-mono-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRUEY.ttf",
+          "bytes": 28992,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "space-mono-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZYFI.ttf",
+          "bytes": 29484,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-spacemono.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+    },
+    {
+      "family": "Spectral",
+      "id": "spectral",
+      "files": [
+        {
+          "weight": 400,
+          "file": "spectral-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spectral/v15/rnCr-xNNww_2s0amA-M-.ttf",
+          "bytes": 56384,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "spectral-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/spectral/v15/rnCs-xNNww_2s0amA9uCt13G.ttf",
+          "bytes": 62056,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-spectral.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spectral/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap"
+    },
+    {
+      "family": "Staatliches",
+      "id": "staatliches",
+      "files": [
+        {
+          "weight": 400,
+          "file": "staatliches-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/staatliches/v15/HI_OiY8KO6hCsQSoAPmtMbec.ttf",
+          "bytes": 21192,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-staatliches.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/staatliches/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Staatliches:wght@400&display=swap"
+    },
+    {
+      "family": "Syne",
+      "id": "syne",
+      "files": [
+        {
+          "weight": 400,
+          "file": "syne-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_04uT6k.ttf",
+          "bytes": 21252,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "syne-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/syne/v24/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6k.ttf",
+          "bytes": 22472,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-syne.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/syne/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap"
+    },
+    {
+      "family": "Teko",
+      "id": "teko",
+      "files": [
+        {
+          "weight": 400,
+          "file": "teko-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN8XG7Sy.ttf",
+          "bytes": 41612,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "teko-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/teko/v23/LYjYdG7kmE0gV69VVPPdFl06VN_wHLSy.ttf",
+          "bytes": 38148,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-teko.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/teko/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap"
+    },
+    {
+      "family": "Titillium Web",
+      "id": "titillium-web",
+      "files": [
+        {
+          "weight": 400,
+          "file": "titillium-web-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/titilliumweb/v19/NaPecZTIAOhVxoMyOr9n_E7fRMQ.ttf",
+          "bytes": 19320,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "titillium-web-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/titilliumweb/v19/NaPDcZTIAOhVxoMyOr9n_E7ffHjDKIw.ttf",
+          "bytes": 18472,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-titilliumweb.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/titilliumweb/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap"
+    },
+    {
+      "family": "Urbanist",
+      "id": "urbanist",
+      "files": [
+        {
+          "weight": 400,
+          "file": "urbanist-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/urbanist/v18/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDyx4fFg.ttf",
+          "bytes": 17088,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "urbanist-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/urbanist/v18/L0xjDF02iFML4hGCyOCpRdycFsGxSrqDLBkfFg.ttf",
+          "bytes": 17032,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-urbanist.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/urbanist/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap"
+    },
+    {
+      "family": "Work Sans",
+      "id": "work-sans",
+      "files": [
+        {
+          "weight": 400,
+          "file": "work-sans-400.woff2",
+          "source_url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf",
+          "bytes": 37656,
+          "missing_sample_glyphs": ""
+        },
+        {
+          "weight": 700,
+          "file": "work-sans-700.woff2",
+          "source_url": "https://fonts.gstatic.com/s/worksans/v24/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNig.ttf",
+          "bytes": 39900,
+          "missing_sample_glyphs": ""
+        }
+      ],
+      "license": "LICENSE-worksans.txt",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/worksans/OFL.txt",
+      "css_url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+    }
+  ],
+  "errors": [],
+  "total_families": 102,
+  "total_font_files": 203,
+  "font_bytes": 9118816,
+  "spanish_and_common_punctuation_verified": true
+}

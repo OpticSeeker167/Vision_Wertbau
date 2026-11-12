@@ -1,0 +1,13 @@
+{
+  "name": "vision-wertbau",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Editor de identidad visual: paletas, 100 tipografías y mockups editables en tiempo real.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check dist/js/app.js && node --check dist/js/model.js && node --check dist/js/fonts.js && node --check dist/js/morph.js",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {"node": ">=20"}
+}
