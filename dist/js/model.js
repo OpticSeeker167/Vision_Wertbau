@@ -5,7 +5,7 @@
 
 const ROLES = ['primary', 'secondary', 'tertiary'];
 export const TEXT_SURFACES = Object.freeze([
-  'type', 'cards', 'cards-front', 'cards-back',
+  'type', 'title', 'cards', 'cards-front', 'cards-back',
   'stationery', 'stationery-paper', 'stationery-envelope', 'stationery-ticket',
   'sign', 'sign-panel', 'sign-footer', 'facade', 'facade-panel',
 ]);

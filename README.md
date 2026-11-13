@@ -104,7 +104,7 @@ Seleccioná el fondo de una aplicación o el logotipo para reemplazarlo con un a
 
 Las fotografías del PDF eran imágenes aplanadas. En esta web, las superficies de marca se reconstruyen como capas editables sobre composiciones y fotografías de referencia. El editor modifica esas capas y permite reemplazar los fondos; no recupera las capas originales de Photoshop ni convierte automáticamente cualquier fotografía nueva en un mockup con perspectiva.
 
-### Cinco láminas
+### Seis láminas
 
 | Lámina | Aplicación |
 | --- | --- |
@@ -113,8 +113,15 @@ Las fotografías del PDF eran imágenes aplanadas. En esta web, las superficies 
 | 03 | Papelería |
 | 04 | Cartel de obra |
 | 05 | Fachada |
+| 06 | Título: nombre de marca centrado |
 
 Usá las miniaturas para cambiar de lámina. Las flechas izquierda/derecha también cambian de lámina cuando no estás editando un campo ni tenés el foco sobre un cuadro de texto. El modo presentación permite revisar las composiciones con más espacio.
+
+### Título centrado
+
+La pestaña **Título**, después de Fachada, muestra únicamente el nombre de la marca centrado sobre un fondo liso. Comparte el texto, la tipografía, el color, el tamaño y el ajuste de mayúsculas/minúsculas de la marca, con transición en tiempo real. Podés editarlo con doble clic o desde Contenido. El fondo sigue el color secundario de la paleta.
+
+Esta lámina conserva el título como texto editable aunque hayas cargado una imagen de logotipo. Su posición es independiente y **Restablecer posición** vuelve a centrarlo. Se incluye en las miniaturas y en la exportación de las seis láminas a PDF. Las cinco referencias del PDF original se mantienen para las aplicaciones existentes.
 
 ### Vistas de tarjetas
 
@@ -128,7 +135,7 @@ En la lámina **02 / Tarjetas**, la barra contextual ofrece tres vistas:
 
 El texto «wertbau» del dorso se puede editar y mover; usa un campo propio para conservar las minúsculas elegidas sin cambiar la marca en las otras aplicaciones. Los cuadros que ya habías añadido se conservan en su misma superficie.
 
-Los textos conservan sus posiciones al alternar entre vistas. La presentación mantiene la vista seleccionada; las miniaturas y la exportación de las cinco láminas a PDF muestran siempre **Ambas**.
+Los textos conservan sus posiciones al alternar entre vistas. La presentación mantiene la vista seleccionada; las miniaturas y la exportación de las seis láminas a PDF muestran siempre **Ambas**.
 
 ## Guardado y variantes
 
@@ -140,7 +147,7 @@ En **Exportar** están disponibles:
 
 - **Proyecto editable (JSON):** textos, cuadros añadidos, superficies, anchos, posiciones, paleta, ajustes, imágenes y fuentes propias incorporadas. Se puede importar en otra instalación de Vision Wertbau.
 - **Estilos de marca (CSS):** variables con los tres colores y las tres jerarquías. Las familias tipográficas deben cargarse en el sitio que utilice esas variables.
-- **Cinco láminas en PDF:** conserva la composición, los cuadros añadidos y sus posiciones. Abre la impresión del navegador en A4 horizontal; elegí guardar como PDF, sin márgenes y con gráficos de fondo. La lámina de tarjetas incluye frente y dorso.
+- **Seis láminas en PDF:** conserva la composición, los cuadros añadidos y sus posiciones. Abre la impresión del navegador en A4 horizontal; elegí guardar como PDF, sin márgenes y con gráficos de fondo. La lámina de tarjetas incluye frente y dorso.
 
 El JSON tiene un límite de **45 MB**. Los 203 archivos tipográficos que ya vienen con la aplicación no se repiten dentro de cada exportación. El respaldo de `localStorage`, cuando se utiliza, admite proyectos de hasta 3 MB.
 
